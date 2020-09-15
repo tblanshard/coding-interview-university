@@ -1,52 +1,6 @@
 # Coding Interview University
 
->
-
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
->
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
->
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
->
-> *Best of luck to you!*
-
-<details>
-<summary>Translations:</summary>
-
-- [中文版本](translations/README-cn.md)
-- [Tiếng Việt - Vietnamese](translations/README-vi.md)
-- [Español](translations/README-es.md)
-- [Português Brasileiro](translations/README-ptbr.md)
-- [Polish](translations/README-pl.md)
-- [繁體中文](translations/README-tw.md)
-
-</details>
-
-<details>
-<summary>Translations in progress:</summary>
-
-- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
-- [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
-- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
-- [French](https://github.com/jwasham/coding-interview-university/issues/89)
-- [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
-- [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
-- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
-- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
-- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
-- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
-- [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
-
-</details>
+> Using jwasham's revision plan.
 
 ## Table of Contents
 
@@ -165,55 +119,11 @@
 - [Computer Science Courses](#computer-science-courses)
 - [Papers](#papers)
 
----
-
-## Why use it?
-
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
-
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
-
 ## How to use it
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
 I'm using Github's special markdown flavor, including tasks lists to check progress.
-
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
-
-    Fork a branch and follow the commands below
-
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button
-
-    Clone to your local repo
-
-`git clone git@github.com:<your_github_username>/coding-interview-university.git`
-
-`git checkout -b progress`
-
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
-
-`git fetch --all`
-
-    Mark all boxes with X after you completed your changes
-
-`git add .`
-
-`git commit -m "Marked x"`
-
-`git rebase jwasham/master`
-
-`git push --set-upstream origin progress`
-
-`git push --force`
-
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
 
 ## Don't feel you aren't smart enough
 
@@ -228,7 +138,6 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 
     I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
     I like using university lectures.
-
 
 ## Interview Process & General Interview Prep
 
@@ -252,35 +161,6 @@ Sometimes the classes are not in session so you have to wait a couple of months,
         - A free Python centric data structures and algorithms course.
     - [ ] [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
         - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
-
-## Pick One Language for the Interview
-
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
-
-- C++
-- Java
-- Python
-
-You could also use these, but read around first. There may be caveats:
-
-- JavaScript
-- Ruby
-
-Here is an article I wrote about choosing a language for the interview: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
-
-You need to be very comfortable in the language and be knowledgeable.
-
-Read more about choices:
-- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
-- http://blog.codingforinterviews.com/best-programming-language-jobs/
-
-[See language resources here](programming-language-resources.md)
-
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
-
-## Book List
-
-This is a shorter list than what I used. This is abbreviated to save you time.
 
 ### Interview Prep
 
